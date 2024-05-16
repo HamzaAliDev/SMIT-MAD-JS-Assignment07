@@ -99,3 +99,11 @@ function handleTotalPrice() {
     }
     showOutput("Total price is " + totalPrice)
 }
+
+function handleInputClear(){
+    document.getElementById('userinput').value = ""
+}
+
+function handleClearBtn(){
+    showOutput("")
+}
